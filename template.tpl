@@ -461,7 +461,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://dashboard.ga4support.nl/api/cookie-banner/"
+                "string": "https://dashboard.ga4support.nl/"
               }
             ]
           }
@@ -563,7 +563,7 @@ ___WEB_PERMISSIONS___
                   },
                   {
                     "type": 8,
-                    "boolean": false
+                    "boolean": true
                   },
                   {
                     "type": 8,
