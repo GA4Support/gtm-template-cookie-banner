@@ -125,9 +125,9 @@ if (cookieValues && cookieValues.length > 0) {
     let consent;
     if (parsed.cats) {
       const cats = parsed.cats;
-      const adState = cats.marketing ? 'granted' : 'denied';
-      const anState = cats.analytics ? 'granted' : 'denied';
-      const fnState = cats.functional ? 'granted' : 'denied';
+      const adState = cats.marketing === true ? 'granted' : 'denied';
+      const anState = cats.analytics === true ? 'granted' : 'denied';
+      const fnState = cats.functional === true ? 'granted' : 'denied';
       consent = {
         ad_storage: adState,
         ad_user_data: adState,
