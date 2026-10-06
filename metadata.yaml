@@ -5,5 +5,5 @@ versions:
   # template.tpl — not a hash from our own working repository. Fill it in only after
   # the file has been pushed there, otherwise the gallery points at a commit that
   # does not exist.
-  - sha: 08ea6640ba7f8685d81a63c26ed11f8d6b453a7f
+  - sha: 9116b5e106036b3f5ff5d8303a3c59c3f260fdb3
     changeNotes: Initial release.
